@@ -1,0 +1,23 @@
+programa {
+  funcao correr() {
+    inteiro contador = 1
+    enquanto(contador <= 10) {
+      
+    escreva("voce ja deu ", contador, " voltas \n")
+    contador = contador +1
+    }
+     escreva("Final da Corrida! Parabéns!!!!! =p \n")
+  }
+  funcao descansar () {
+    escreva("Está na hora de descansar 💤  \n" )
+    escreva("Beba bastante água 🪣 \n ")
+    escreva("Está na hora de comer uma fruta 🍑🍓🍇 \n")
+  }
+
+  funcao inicio () {
+    correr()
+    descansar()
+
+  }
+
+}
